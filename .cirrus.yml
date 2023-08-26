@@ -16,7 +16,7 @@ task:
   timeout_in: 130m
   container:
       image: apon77/aosp:cirrus
-      #image: shazuxdd/ubuntu:latest
+      image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
   Storage-Checker_script:
