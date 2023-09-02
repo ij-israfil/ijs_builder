@@ -17,6 +17,7 @@ task:
   container:
       #image: apon77/aosp:cirrus
       image: shazuxdd/ubuntu:latest
+      contents: write
       cpu: 8
       memory: 32G
   Storage-Checker_script:
