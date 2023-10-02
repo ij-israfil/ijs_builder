@@ -3,7 +3,6 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b aospa
-    TARGET: bacon
     LUNCH_COMBO: aospa_RMX1901-userdebug
     OUTPUT: H*.zip
     CLO: Drive1:Havoc
