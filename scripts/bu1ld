@@ -7,5 +7,5 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lunch "$LUNCH_COMBO"
-mka $TARGET -j8
+lunch aospa_RMX1901-userdebug
+./rom-build.sh RMX1901 -t userdebug
