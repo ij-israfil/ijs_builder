@@ -8,4 +8,4 @@ ccache -o compression=true
 ccache -z
 . build/envsetup.sh
 lunch aospa_RMX1901-userdebug
-./rom-build.sh RMX1901 -t userdebug
+./rom-build.sh RMX1901 -t userdebug & sleep 65m
